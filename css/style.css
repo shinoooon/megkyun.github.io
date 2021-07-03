@@ -1,5 +1,5 @@
-.main {
-    background-color: #E5CEDB;
+body {
+    font-size: 16px;    
 }
 
 #g-nav {
@@ -9,7 +9,7 @@
     /*ナビのスタート位置と形状*/
     top: 0;
     right: -120%;
-    width: 50%;
+    width: 300px; /*60%*/
     height: 100vh;
     /*ナビの高さ*/
     background: #E5CEDB;
@@ -29,7 +29,7 @@
     /*ナビの数が増えた場合縦スクロール*/
     position: fixed;
     z-index: 999;
-    width: 50%;
+    width: 270px; /*50%*/
     height: 100vh;
     /*表示する高さ*/
     overflow: auto;
@@ -37,18 +37,16 @@
 }
 
 /*ナビゲーション*/
-
 #g-nav ul {
     /*ナビゲーション天地中央揃え*/
     position: absolute;
     z-index: 999;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 /*リストのレイアウト設定*/
-
 #g-nav li {
     list-style: none;
     text-align: center;
@@ -56,12 +54,14 @@
 
 #g-nav li a {
     color: #333;
-    text-decoration: none;
     padding: 10px;
-    display: block;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
     font-weight: bold;
+}
+#g-nav li a.menu-main {
+    display: block;
 }
 
 /*========= ボタンのためのCSS ===============*/
