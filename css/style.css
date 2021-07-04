@@ -281,6 +281,9 @@ h2:after {
 
 .portfolio .portfolio-item {
     margin-top: 30px;
+
+}
+.category-name {
     display: none;
 }
 
