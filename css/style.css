@@ -30,18 +30,8 @@ img.kyun {
     width: 200px;
 }
 
-/* .carousel-inner {
-    height: 100vh;
-}
-*/
-
-.carousel .item {
-    height: 50px;
-}
-
-.carousel img {
-    /* position: absolute; */
-    /* width: 100%; */
+.carousel-item {
+    max-height: 85vh;
 }
 
 h5 {
@@ -270,11 +260,14 @@ h2:after {
 /* ---------- work ---------- */
 
 .filter {
-    background-color: #E5CEDB;
+    background-color: #dabbcc;
 }
 
-.portfolio .portfolio-filter .list-inline-item:not(:last-child) {
-    /* margin-bottom: 1rem; */
+.work.section {
+    padding-top: 60px;
+}
+.list-inline-item {
+    font-size: 0.9rem;
 }
 
 .portfolio .portfolio-filter li a {
