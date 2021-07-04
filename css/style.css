@@ -19,6 +19,20 @@ img.kyun {
     width: 200px;
 }
 
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel .item {
+    height: 100%;
+  }
+
+.carousel img {
+    position: absolute;
+    width: 100%;
+  }
+
+
 #g-nav {
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
     position: fixed;
