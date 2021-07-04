@@ -25,10 +25,10 @@
   <nav id="g-nav">
     <div id="g-nav-list">
       <ul>
-        <li><a class="menu-main" href="#editiorial">editiorial</a></li>
-        <li><a class="menu-main" href="#direction">direction</a></li>
-        <li><a class="menu-main" href="#styling">styling</a></li>
-        <li><a class="menu-main" href="#contact">contact</a></li>
+        <li><a class="menu-main pill-button" data-filter=".editorial"  href="#portfolio">editiorial</a></li>
+        <li><a class="menu-main pill-button" data-filter=".direction"  href="#portfolio">direction</a></li>
+        <li><a class="menu-main pill-button" data-filter=".styling"  href="#portfolio">styling</a></li>
+        <li><a class="menu-main pill-button" href="#portfolio">contact</a></li>
         <li><br><a href="https://twitter.com/megkyun"><i class="fab fa-twitter"></i></a><a
             href="https://instagram.com/megkyun?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
       </ul>
@@ -55,14 +55,14 @@
       <div class="carousel-item" data-bs-interval="2000">
         <img src="./img/tumblr_o7ohqxWM111tvfhauo5_1280.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block">
-          <h5><a href="#portfolio" data-filter=".styling" class="pill-button">Direction</a></h5>
+          <h5><a href="#portfolio" data-filter=".direction" class="pill-button">Direction</a></h5>
           <p>yyyyyyyyyyyyy</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./img/tumblr_o7ohqxWM111tvfhauo7_1280.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block">
-          <h5><a href="#portfolio" data-filter=".movie" class="pill-button">Styling</a></h5>
+          <h5><a href="#portfolio" data-filter=".styling" class="pill-button">Styling</a></h5>
           <p>zzzzzzzzzzzzzzzzzzz</p>
         </div>
       </div>
@@ -78,29 +78,36 @@
   </div>
 
   <div class="work section portfolio" id="portfolio">
-    <div class="display-table">
-      <div class="display-content">
+    <!-- <div class="display-table"> -->
+      <!-- <div class="display-content"> -->
         <div class="container">
           <div class="row filter">
-            <!--   Portfolio Filters   -->
-            <!-- <ul id="portfolio-filter" class="list-unstyled list-inline mb-0 col-lg-12 text-center portfolio-filter">
-              <li class="button-border list-inline-item">
-                <a href="#portfolio" data-filter="*" class="pill-button active">All</a>
-              </li>
-              <li class="pill-button list-inline-item">
-                <a href="#portfolio" data-filter=".editorial" class="pill-button">Editorial</a>
-              </li>
-              <li class="button-border list-inline-item">
-                <a href="#portfolio" data-filter=".styling" class="pill-button">Direction</a>
-              </li>
-              <li class="button-border list-inline-item">
-                <a href="#portfolio" data-filter=".movie" class="pill-button">Styling</a>
-              </li>
-            </ul> -->
           </div>
           <div class="portfolio-items row">
             <!-- Item 01 -->
-            <div class="col-lg-3 col-md-3 col-sm-5 col-6 portfolio-item movie">
+            <div class="col-12 portfolio-item editorial" id="editiorial">
+              <div class="image-border">
+                <div class="portfolio-item-content">
+                  <h2>Editiorial</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 portfolio-item direction" id="direction">
+              <div class="image-border">
+                <div class="portfolio-item-content">
+                  <h2>Direction</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 portfolio-item styling" id="styling">
+              <div class="image-border">
+                <div class="portfolio-item-content">
+                  <h2>Styling</h2>
+                </div>
+              </div>
+            </div>
+            <!-- Item 01 -->
+            <div class="col-lg-3 col-md-3 col-sm-5 col-6 portfolio-item direction">
               <div class="image-border">
                 <div class="portfolio-item-content">
                   <img src="./img/tumblr_nux0eslgUI1tvfhauo1_1280.jpg" alt="/" class="img-fluid">
@@ -118,7 +125,7 @@
               </div>
             </div>
             <!-- Item 02 -->
-            <div class="col-lg-3 col-md-3 col-sm-5 col-6 portfolio-item kyun styling">
+            <div class="col-lg-3 col-md-3 col-sm-5 col-6 portfolio-item styling">
               <div class="image-border">
                 <div class="portfolio-item-content">
                   <img src="./img/tumblr_nux0eslgUI1tvfhauo2_1280.jpg" alt="/" class="img-fluid">
@@ -172,7 +179,7 @@
               </div>
             </div>
             <!-- Item 05 -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6 portfolio-item editorial movie">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 portfolio-item editorial direction">
               <div class="image-border">
                 <div class="portfolio-item-content">
                   <img src="./img/tumblr_nux0eslgUI1tvfhauo5_1280.jpg" alt="/" class="img-fluid">
@@ -244,7 +251,7 @@
               </div>
             </div>
             <!-- Item 09 -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6 portfolio-item movie">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 portfolio-item direction">
               <div class="image-border">
                 <div class="portfolio-item-content">
                   <img src="./img/tumblr_nux0eslgUI1tvfhauo9_1280.jpg" alt="/" class="img-fluid">
@@ -262,120 +269,51 @@
               </div>
             </div>
           </div>
+          <!-- contact -->
+          <div class="row contact">
+            <h2>contact</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+
+
         </div>
-      </div>
-    </div>
-
-
-    <div class="row menu-element" id="editiorial">
-      <h2>editiorial</h2>
-      <div class="col-12">
-        文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </div>
-    <div class="row menu-element" id="direction">
-      <h2>direction</h2>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </div>
-    <div class="row menu-element" id="styling">
-      <h2>styling</h2>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </div>
-    <div class="row menu-element" id="contact">
-      <h2>contact</h2>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </div>
+      <!-- </div> -->
+    <!-- </div> -->
+    
   </div>
   <div class="topup">
     <a href="#"><i class="fas fa-chevron-up"></i></a>

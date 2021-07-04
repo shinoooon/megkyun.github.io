@@ -5,7 +5,7 @@ body {
 
 a {
     color: #fff;
-    display: block;
+    /* display: block; */
     text-align: center;
     letter-spacing: 0.2em;
 }
@@ -257,6 +257,10 @@ h2:after {
     letter-spacing: 0.4em;
 }
 
+.row.contact {
+    padding-top:40px;
+}
+
 /* ---------- work ---------- */
 
 .filter {
@@ -266,6 +270,7 @@ h2:after {
 .work.section {
     padding-top: 60px;
 }
+
 .list-inline-item {
     font-size: 0.9rem;
 }
@@ -276,6 +281,7 @@ h2:after {
 
 .portfolio .portfolio-item {
     margin-top: 30px;
+    display: none;
 }
 
 .portfolio .portfolio-item-content {

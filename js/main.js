@@ -42,7 +42,7 @@ $(document).ready(function () {
 
   // navColorIn();
   portfoliofilter();
-  portfolioPopup();
+  // portfolioPopup();
   // titleIn();
   
 });
