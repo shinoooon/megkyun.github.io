@@ -189,6 +189,11 @@ small {
     position: fixed;
     z-index: 999;
     background-color: #E5CEDB;
+    text-align: left;
+}
+#header a {
+    text-decoration:none;
+    color: #333;
 }
 
 section {
